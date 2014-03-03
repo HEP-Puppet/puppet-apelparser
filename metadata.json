@@ -1,26 +1,13 @@
 {
   "name": "kreczko-apelparser",
+  "version": "0.0.1",
+  "summary": "APEL parser module",
   "author": "kreczko",
   "description": "APEL parser module",
-  "license": "Apache 2.0",
-  "project_page": "https://github.com/HEP-Puppet",
+  "dependencies": [],
+  "types": [],
+  "checksums": {},
   "source": "git@github.com:HEP-Puppet/puppet-apelparser.git",
-  "summary": "APEL parser module",
-  "version": "0.0.1",
-  "checksums": {
-    "Modulefile": "88035669a52fd569fed9865cf0d3516e",
-    "README.md": "8a02fb68d420cc2d638c60b61cd1dfe1",
-    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests\\config.pp": "ed6f7a6e39ae597206e88ac1ea0ae629",
-    "manifests\\cron.pp": "22560aefbed2de65035ffa047f8135e3",
-    "manifests\\init.pp": "52cafe272bee93d831aeff07323222a9",
-    "manifests\\install.pp": "15e8addb99f4df901cc06e4a721ed841",
-    "manifests\\repositories.pp": "09e4cd61010cb54cb86f71c0bb1fad2e",
-    "manifests\\uninstall.pp": "79dbaf03f459e92d6d726262b7d53f2a",
-    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "templates\\parser.cfg.erb": "07943749afa4ad667260cec55c69677b",
-    "tests\\init.pp": "f9cfdc31da1554d0bd608a0e0a4924c8"
-  },
-  "dependencies": []
+  "project_page": "https://github.com/HEP-Puppet",
+  "license": "Apache 2.0"
 }
