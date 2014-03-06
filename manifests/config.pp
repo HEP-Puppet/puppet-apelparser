@@ -19,5 +19,6 @@ class apelparser::config (
     ensure  => "present",
     content => template($template_name),
     require => Package['apel-parsers'],
+    mode => 600, #file contains passwords
   }
 }
