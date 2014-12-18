@@ -5,6 +5,8 @@ class apelparser::config (
   $mysql_user     = 'apel',
   $mysql_password = 'changeme',
   $site_name      = 'GOCDB-NAME',
+  $parser_type    = 'PBS',
+  $parallel_jobs  = true, #there is no reason for defaulting to false
   
   #this may vary, depending on the packages
   $torque_dir='/var/torque/server_priv/accounting', 
