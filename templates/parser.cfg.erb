@@ -21,8 +21,8 @@ enabled = true
 
 # Uncomment the appropriate section for your batch system.
 
-type = PBS
-#parallel = false
+type = <%= @parser_type %>
+parallel = <%= @parallel_jobs %>
 dir = <%= @torque_dir %>
 ## typical logfile name is yyyymmdd e.g. 20120101
 filename_prefix = 201
